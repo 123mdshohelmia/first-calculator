@@ -1,0 +1,61 @@
+body {
+    background-image: url(image/calculator-blue-background-top-view_51524-6326.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.calculator {
+    width: 320px;
+    height: 470px;
+    border: 1px solid coral;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: gray;
+}
+
+#showNumber {
+    height: 70px;
+    margin-top: 10px;
+    margin: 10px 14px;
+    background-color: black;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.line {
+    padding: 10px 10px;
+}
+
+.btn {
+    font-size: 25px;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    color: white;
+    background-color: palevioletred;
+}
+
+.last-btn input {
+    width: 150px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+#create {
+    text-align: center;
+    margin: 10px 0px;
+    color: darkorange;
+    text-transform: capitalize;
+}
